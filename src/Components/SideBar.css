@@ -1,0 +1,35 @@
+.sidebar {
+    width: 200px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: 100vh; /* Full height sidebar */
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .main-content {
+    margin-left: 220px; /* Adjust based on sidebar width */
+    padding: 20px;
+  }
+  
+  /* Optional: Media query for responsive layout */
+  @media screen and (max-width: 768px) {
+    .sidebar {
+      width: 100px; /* Adjust sidebar width for smaller screens */
+    }
+  
+    .main-content {
+      margin-left: 120px; /* Adjust main content margin for smaller screens */
+    }
+  }
+  
